@@ -4,7 +4,9 @@
 
 /*
 @brief:Accelerometer write function,data is written to reg adress up to size
+
 @param:uint8_t reg, const void* data, int size
+
 @return:-
 */
 void lsm_write(uint8_t reg, const void* data, int size);
