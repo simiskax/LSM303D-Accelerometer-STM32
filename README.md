@@ -9,8 +9,9 @@
 
 @return:-
 */
-void lsm_write(uint8_t reg, const void* data, int size);
 
+void lsm_write(uint8_t reg, const void* data, int size);
+---------------------------------------------------------------
 /*
 @brief:Accelerometer write function,data is read from reg adress up to size
 @param:uint8_t reg, void* data, int size
